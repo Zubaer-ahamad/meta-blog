@@ -1,0 +1,41 @@
+.hero-section {
+    position: relative;
+    padding: 20px;
+}
+
+.hero-content {
+    width: 598px;
+    height: 304px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -100px;
+    left: 80px;
+}
+
+.hero-content button{
+    width: 97px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #4B6BFB;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.hero-subtitle {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-subtitle p {
+    font-size: 24px;
+    color: #97989F;
+}
