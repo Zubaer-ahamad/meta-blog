@@ -6,7 +6,6 @@ nav {
     align-items: center;
     margin-top: 30px;
     padding: 20px;
-    padding-right: 0;
 }
 
 .nav-icon {
@@ -17,7 +16,11 @@ nav {
     font-size: 16px;
 }
 
-.hidden-icon-section{
+.nav-icon li a {
+    color: black;
+}
+
+.hidden-icon-section {
     display: none;
 }
 
@@ -41,7 +44,7 @@ nav {
     padding-top: 10px;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     display: none;
 }
 
@@ -59,11 +62,11 @@ nav {
         display: none;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         display: block;
     }
 
-    .icon-section{
+    .icon-section {
         display: none;
     }
 }
