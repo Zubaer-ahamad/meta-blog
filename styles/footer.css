@@ -1,148 +1,123 @@
-footer {
-    margin-bottom: 120px;
-    background-color: #E8E8EA;
+footer{
+    background-color: #F6F6F7;
+    padding-top: 50px;
 }
 
-.footer-box {
+.footer-container{
     width: 1240px;
-    margin: 0 auto;
     padding: 20px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 45px;
+    gap: 50px;
 }
 
-.footer-card{
-    width: 100%;
-}
-
-footer h3 {
-    margin-top: 60px;
+.footer-title{
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 20px;
-}
-
-footer p {
-    font-size: 16px;
-    color: #696A75;
     margin-bottom: 10px;
 }
 
-.title-name {
+.footer-subtitle{
+    font-size: 16px;
+    color: #696A75;
+    margin-bottom: 20px;
+}
+
+.footer-email{
+    margin-bottom: 10px;
+}
+
+.title-name{
+    font-size: 16px;
     font-weight: 600;
 }
 
-.footer-icon {
+.footer-icon{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-.footer-icon a {
-    font-size: 16px;
+    gap: 15px;
     color: #3B3C4A;
 }
 
-.footer-form {
+.footer-box{
     width: 392px;
     height: 254px;
-    background-color: white;
-    margin-top: 60px;
     text-align: center;
+    padding-top: 40px;
+    background-color: white;
 }
 
-.footer-form h2 {
-    margin-top: 40px;
+.box-title{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.input-box {
+.input-box{
     position: relative;
 }
 
-.email-field {
+.email-field{
     width: 320px;
     height: 48px;
+    font-size: 16px;
     color: #97989F;
-    padding-left: 20px;
-    margin-top: 20px;
+    padding-left: 10px;
     margin-bottom: 10px;
-    border-radius: 8px;
-    border: 1px solid #E8E8EA;
 }
 
-.fa-regular {
+.fa-regular{
     position: absolute;
-    top: 35px;
+    top: 18px;
     right: 50px;
-    color: #696A75;
 }
 
-.subscribe-btn {
+.subscribe-btn{
     width: 320px;
     height: 48px;
     border: none;
-    border-radius: 8px;
     background-color: #4B6BFB;
-    font-weight: 500;
-    color: #ffff;
+    color: #fff;
 }
 
-.footer-icon-section {
+.footer-bottom{
     width: 1240px;
     padding: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    margin-top: 30px;
-}
-
-.end-section {
-    display: flex;
-    justify-content: start;
     align-items: center;
-    gap: 10px;
 }
 
-.footer-icon {
-    height: 48px;
-    width: 48px;
-}
-
-.footer-icon-section a {
+.meta-title{
     font-size: 16px;
-    margin-left: 20px;
-}
-
-.footer-icon-section h4 {
     font-weight: 400;
+    margin-bottom: 6px;
 }
 
-.meta-sub-title {
+.meta-sub-title{
     font-weight: 600;
+}
+
+.end-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottom-icon{
+    display: flex;
+    gap: 20px;
 }
 
 
 @media only screen and (max-width: 575.98px) {
-    
-    .footer-box {
-        width: 100%;
+    .footer-container{
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 20px;
-        padding: 10px;
     }
 
-    .footer-icon-section {
+    .footer-bottom{
         flex-direction: column;
-        gap: 30px;
-    }
-
-    .footer-form {
-        height: 100%;
-        width: 100%;
     }
 }

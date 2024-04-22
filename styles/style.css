@@ -17,8 +17,8 @@ a {
     color: black;
 }
 
-img {
-    height: 100%;
+image {
+    height: auto;
     width: 100%;
 }
 
@@ -29,4 +29,8 @@ img {
     margin-top: 40px;
     margin-bottom: 100px;
     padding: 20px;
+}
+
+.ad-section a img{
+    width: 100%;
 }
