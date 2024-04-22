@@ -18,7 +18,7 @@
 
 .post-card {
     height: 488px;
-    width: 392px;
+    width: 100%;
     border: 2px solid #E8E8EA;
     border-radius: 10px;
     padding: 14px;
@@ -46,6 +46,11 @@
     gap: 18px;
     margin-top: 20px;
     color: #97989F;
+}
+
+.card-subtitle img{
+    width: 36px;
+    height: 36px;
 }
 
 .card-subtitle p {
