@@ -4,9 +4,6 @@ footer{
 }
 
 .footer-container{
-    width: 1240px;
-    padding: 20px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
@@ -82,9 +79,6 @@ footer{
 }
 
 .footer-bottom{
-    width: 1240px;
-    padding: 20px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
