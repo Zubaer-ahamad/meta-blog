@@ -8,6 +8,7 @@
     width: 598px;
     height: 304px;
     padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
@@ -27,8 +28,9 @@
 }
 
 .hero-content h1 {
-    font-size: 40px;
-    margin: 20px 0;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px 0px;
 }
 
 .hero-subtitle {
@@ -37,6 +39,7 @@
 }
 
 .hero-subtitle p {
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 500;
     color: #97989F;
 }
